@@ -34,5 +34,9 @@ public class Commande {
 	public void setNomClient(String nomClient) {
 		this.nomClient=nomClient;
 	}
+	
+	public double calculerPrix() {
+		return plat.getPrix()*quantite;
+	}
 
 }
