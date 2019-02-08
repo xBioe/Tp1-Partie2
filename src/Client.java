@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Client {
 	private String nom;
-	private ArrayList<Commande> listeCommande;
+	private ArrayList<Commande> listeCommande = new ArrayList<>();
 	
 	public Client(String nom) {
 		this.nom = nom;
@@ -19,5 +19,5 @@ public class Client {
 	public ArrayList<Commande> getListeCommande(){
 		return listeCommande;
 	}
-
+	
 }

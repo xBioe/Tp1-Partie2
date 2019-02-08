@@ -1,21 +1,21 @@
 
 public class Plat {
 
-	private String plat;
+	private String nom;
 	private double prix;
 	
-	public Plat(String plat, double prix) {
-		this.plat=plat;
+	public Plat(String nom, double prix) {
+		this.nom=nom;
 		this.prix=prix;
 		
 	}
 	
-	public String getPlat() {
-		return plat;
+	public String getNom() {
+		return nom;
 	}
 	
-	public void setPlat(String plat) {
-		this.plat=plat;
+	public void setNom(String nom) {
+		this.nom=nom;
 	}
 	
 	public double getPrix() {

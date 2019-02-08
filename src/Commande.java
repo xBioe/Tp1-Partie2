@@ -5,7 +5,7 @@ public class Commande {
 	private int quantite;
 	private String nomClient;
 	
-	public Commande(Plat plat, int quantite, String nomClient) {
+	public Commande(String nomClient, Plat plat, int quantite) {
 		this.plat=plat;
 		this.quantite=quantite;
 		this.nomClient=nomClient;
