@@ -1,0 +1,38 @@
+Normes de programmation:
+
+-Les noms de variables doivent toujours commencer par une minuscule et la première lettre du deuxième mot doit être une majuscule. 
+	Exemple: totalFacture
+-Les noms de méthodes doivent toujours commencer par une minuscule et la première lettre du deuxième mot doit être une majuscule. 
+	Exemple: calculerPrix()
+-Les noms de méthodes doivent contenir un verbe.
+	Exemple: getNom()
+-La longueur des lignes doit respecter le print margin de 120.
+
+-Il doit y avoir des espaces entre chaque opérateur.
+	Exemple: String ligne = "";
+-Il doit y avoir un espace après chaque parenthèse ouvrante et un espace avant chaque parenthèse fermante, cette norme ne s'applique pas pour les parenthèses vides.
+	Exemple: String[] infoPlat = ligne.split( " " );
+		 LectureFichier()
+-Les instructions de blocs d'instructions ne doivent pas être sur la même ligne.
+	Exemple: if ( !platTrouve ) {
+			System.out.println( "Erreur, le fichier ne respecte pas le bon format." );
+		  }
+-Il y doit y avoir une indentation après chaque bloc d'instruction.
+	Exemple: if ( !platTrouve ) {
+			System.out.println( "Erreur, le fichier ne respecte pas le bon format." );
+		  }
+-L'accolade fermante des blocs if, while et for doit être allignée verticalement.
+	Exemple: if ( !platTrouve ) {
+			System.out.println( "Erreur, le fichier ne respecte pas le bon format." );
+		  }
+-Les accolades des else, try, catch doivent être allignées verticalement.
+	Exemple: } else {
+
+			System.out.println( "Erreur, le fichier ne respecte pas le bon format." );
+		 }
+		 } catch ( Exception ex ) {
+
+			System.out.println( "Erreur, le fichier ne respecte pas le bon format." );
+		 }
+-Le code doit être bien espacé.
+	
