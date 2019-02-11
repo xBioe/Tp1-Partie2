@@ -12,10 +12,6 @@ public class Client {
 		return nom;
 	}
 	
-	public void setNom(String nom) {
-		this.nom=nom;
-	}
-	
 	public ArrayList<Commande> getListeCommande(){
 		return listeCommande;
 	}

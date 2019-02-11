@@ -15,24 +15,12 @@ public class Commande {
 		return plat;
 	}
 	
-	public void setPlat(Plat plat) {
-		this.plat=plat;
-	}
-	
 	public int getQuantite() {
 		return quantite;
 	}
-	
-	public void setQuantite(int quantite) {
-		this.quantite=quantite;
-	}
-	
+
 	public String getNomClient() {
 		return nomClient;
-	}
-	
-	public void setNomClient(String nomClient) {
-		this.nomClient=nomClient;
 	}
 	
 	public double calculerPrix() {
