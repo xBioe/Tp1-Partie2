@@ -20,4 +20,10 @@ public class Client {
 		return listeCommande;
 	}
 	
+	@Override
+    public boolean equals(Object client)
+    {
+
+        return this.getNom().equals(((Client) client).getNom());
+    }
 }
